@@ -1,0 +1,12 @@
+@keyframes headerFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.header-fade-in {
+    animation: headerFadeIn 1.5s 3.5s ease-in-out forwards; /* Added 'forwards' */
+}
